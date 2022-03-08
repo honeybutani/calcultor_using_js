@@ -1,3 +1,4 @@
+
 button {
   width: 110;
   height: 110;
@@ -13,11 +14,15 @@ button {
 }
 /* css applied to whole content */
 .main {
-  position: absolute;
+  position: relative;
   border: solid;
+  top:20%;
   min-height: 450px;
   width: min-content;
   background-color: #d4d4d4;
+  margin-left: 40%;
+  margin-top: 5%;
+  
 }
 .numb {
   background-color: #fcfcfc;
